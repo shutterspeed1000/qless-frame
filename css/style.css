@@ -7,4 +7,17 @@ font-size: ;
     display: flex;
     align-items: center;
     justify-content: center;
+  
+  }
+
+  #theFrame{
+    padding-bottom: 35%; 
+    position:relative; 
+    align-items: center;
+    display:block; 
+    width: 100%
+  }
+
+  #logo{
+    display:none
   }
