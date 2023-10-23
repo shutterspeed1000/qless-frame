@@ -1,0 +1,10 @@
+#appt{
+font-size: 5em;
+
+}
+
+#buttondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
