@@ -10,14 +10,26 @@ font-size: ;
   
   }
 
+
+  @media (max-width: 5000px) {
   #theFrame{
-    padding-bottom: 35%; 
+    padding-bottom: 100%; 
     position:relative; 
     align-items: center;
     display:block; 
     width: 100%
   }
+}
 
-  #logo{
-    display:none
-  }
+@media (max-width: 1000px) {
+  
+    #theFrame{
+      padding-bottom: 100%; 
+      position:relative; 
+      align-items: center;
+      display:block; 
+      width: 100%
+    }
+
+}
+
