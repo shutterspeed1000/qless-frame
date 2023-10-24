@@ -21,11 +21,11 @@ font-size: ;
 
 
   #theFrame{
-    padding-bottom: clamp(300px, 75%, 800px);
+    padding-bottom: clamp(500px, 75%, 800px);
     position:relative; 
     align-items: center;
     display:block; 
-    width: clamp(300px, 75%, 1000px);
+    width: clamp(200px, 75%, 1000px);
 
   }
 
