@@ -29,9 +29,10 @@
 
 #qlessFrame {
   padding-top: 10vh;
-  min-width: 100%;
-  min-height: 100vh;
-  /* height: clamp(500px, 100vh, 800px); */
+  padding-bottom: 10vh;
+  min-width: 50%;
+  min-height: 75vh;
+  height: clamp(500px, 100vh, 800px);
 }
 
 /* @media (max-width: 1000px) {
