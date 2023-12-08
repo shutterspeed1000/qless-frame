@@ -28,9 +28,10 @@
 } */
 
 #qlessFrame {
-  padding-top: 10%;
+  padding-top: 10vh;
   width: 100%;
-  height: clamp(500px, 100%, 800px);
+  min-height: 100vh;
+  /* height: clamp(500px, 100vh, 800px); */
 }
 
 /* @media (max-width: 1000px) {
