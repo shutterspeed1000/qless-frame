@@ -1,8 +1,7 @@
-.appt{
-font-size: larger;
-opacity: 0;
-
-} 
+.appt {
+  font-size: larger;
+  opacity: 0;
+}
 
 #buttondiv {
   display: flex;
@@ -19,19 +18,18 @@ opacity: 0;
   height: 100%;
 }
 
-#theFrame {
+/* #theFrame {
   padding-bottom: clamp(500px, 100%, 800px); 
   position: relative;
   align-items: center;
   display: block;
   width: clamp(200px, 100%, 1000px);
 
-}
+} */
 
 #qlessFrame {
   width: 100%;
   height: clamp(500px, 100%, 800px);
-  
 }
 
 /* @media (max-width: 1000px) {

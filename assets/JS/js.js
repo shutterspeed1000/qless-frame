@@ -1,4 +1,3 @@
-setTimeout(function(){
-    $('.appt').css('opacity','1');
-    
-}   ,10000);
+setTimeout(function () {
+  $(".appt").css("opacity", "1");
+}, 10000);
