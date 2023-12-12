@@ -3,45 +3,43 @@
 
 <head>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Make a virtual appointment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Make an appointment</title>
 
 
 </head>
 
+<meta name="viewport" content="width=100vw, height=100vh initial-scale=1" />
 
 <body>
 
-    <div id="buttondiv">
-        <a
-            href="https://forms.office.com/Pages/ResponsePage.aspx?id=PwzHHtNgAEGufNcH-CU1hVp6geOch6JPhz3q0coJQhdUMVZMNEpLU0hJRlc2TzUxUFlHSE8xTUNEUy4u">
-            <button class="appt">
-                <h2>If you are unable to locate a time on the calendar, please click here for assistance.</h2>
-            </button>
-        </a>
-
-
-
-
-
-
-
-
-        <div id="theFrame">
-            <iframe id="qlessFrame" src="https://kiosk.na5.qless.com/kiosk/app/home/446" frameborder="0"
-                allowfullscreen="" style="position:absolute; top:0; left: 0">
-            </iframe>
+    <div id="buttondiv" class="row justify-content-md-center">
+        <div class="alert alert-info appt justify-content-center text-center" role="alert">
+            We encourage you to call us at 1.800.757.4598 if you need help making an appointment.
         </div>
 
+        <div id="theFrame" class="row col-12">
+            <embed id="qlessFrame" src="https://kiosk.na5.qless.com/kiosk/app/home/277" frameborder="0"
+                allowfullscreen="" style="position:absolute; top:0; left: 0">
+            </embed>
+        </div>
+
+
+
     </div>
-
-
-
 
 </body>
 
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
 
+
 <script src="./assets/JS/js.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
 
 </html>

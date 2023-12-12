@@ -28,13 +28,13 @@
 } */
 
 #qlessFrame {
-  /* aspect-ratio: 16 / 9; */
-  /* height: 100%;
-  width: 100%; */
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  width: 100%;
   /* padding-top: 10vh;
   padding-bottom: 10vh; */
   min-width: 100%;
-  min-height: 85vh;
+  min-height: 75vh;
   /* height: clamp(500px, 100vh, 800px); */ */
 }
 
